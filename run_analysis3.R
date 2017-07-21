@@ -6,7 +6,7 @@ library("dplyr")
 
 #Assignent part-1
 ## Merges the training and the test sets to create one data set
-setwd("C:/coursera_project/cr3wk4/getdata%2Fprojectfiles%2FUCI_HAR_Dataset/UCI HAR Dataset")
+setwd("C:/coursera_project/cr3wk4/getdata%2Fprojectfiles%2FUCI HAR Dataset/UCI HAR Dataset")
 
 #reading data from 30 subjects from both test and train
 data_subject_test <- tbl_df(read.table(file.path("./test/subject_test.txt")))
