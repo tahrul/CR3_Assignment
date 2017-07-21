@@ -43,7 +43,7 @@ Labelling variables based on description from feature_info.txt file. 'gsub' func
 #Assignment part-5
 #Create a second, independent tidy data set with the average of each variable for each activity and each subject
 
-'ddply' package has been used to calculate the average of each variable for each activity and each subject. Total 180 combination will be created (30 subject * 6 type of activities)  
+'ddply' package has been used to calculate the average of mean,std variables for each activity and corresponding subjects. Total 180 combination will be created (30 subject * 6 type of activities)  
 ----------------------------------------------------------------
 
 
